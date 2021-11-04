@@ -1,0 +1,50 @@
+body{
+    background-color: darkturquoise;
+    font-family: Arial, Helvetica, sans-serif;
+}/*this is the main part of all fonts that will be used*/
+
+/*design for the container of div class*/
+.container{ 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -260px;
+    margin-left: -140px;
+    width: 20%;
+    padding: 16px;
+    background-color: floralwhite;
+    border-radius: 5%;
+}
+
+/*design for the text box used for username and password*/
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/*login button design*/
+button{
+    background-color: #E74C3C;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/*forget password text design*/
+.lower{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: 210px;
+    margin-left: -140px;
+    width: 20%;
+    padding: 16px;
+    background-color: darkturquoise;
+}
